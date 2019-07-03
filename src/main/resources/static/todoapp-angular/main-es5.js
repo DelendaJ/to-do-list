@@ -251,7 +251,7 @@ __webpack_require__.r(__webpack_exports__);
 var TodoService = /** @class */ (function () {
     function TodoService(http) {
         this.http = http;
-        this.baseUrl = 'http://localhost:8080';
+        this.baseUrl = 'http://to-do-do-do.herokuapp.com';
     }
     TodoService.prototype.getTodos = function () {
         return this.http.get(this.baseUrl + '/api/todos/')
