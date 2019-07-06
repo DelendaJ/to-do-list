@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://to-do-do-do.herokup",
+    "secure": false
+  }
+}
