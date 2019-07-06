@@ -241,7 +241,7 @@ __webpack_require__.r(__webpack_exports__);
 let TodoService = class TodoService {
     constructor(http) {
         this.http = http;
-        this.baseUrl = 'http://to-do-do-do.herokuapp.com';
+        this.baseUrl = 'https://to-do-do-do.herokuapp.com';
     }
     getTodos() {
         return this.http.get(this.baseUrl + '/api/todos/')

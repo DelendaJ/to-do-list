@@ -6,7 +6,7 @@ import { from } from 'rxjs';
 
 @Injectable()
 export class TodoService {
-  private baseUrl = 'http://to-do-do-do.herokuapp.com';
+  private baseUrl = 'https://to-do-do-do.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 

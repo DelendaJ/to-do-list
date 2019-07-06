@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://to-do-do-do.herokuapp.com",
+    "target": "https://to-do-do-do.herokuapp.com",
     "secure": false
   }
 }
