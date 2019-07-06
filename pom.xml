@@ -40,26 +40,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.6.0</version>
-				<executions>
-					<execution>
-						<phase>validate</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<executable>ng</executable>
-					<workingDirectory>todoapp-angular</workingDirectory>
-					<arguments>
-						<argument>build</argument>
-					</arguments>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>1.5.9.RELEASE</version>
@@ -68,22 +48,6 @@
 						<goals>
 							<goal>repackage</goal>
 						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.6.0</version>
-				<configuration>
-					<classpathScope>test</classpathScope>
-					<mainClass>Main</mainClass>
-				</configuration>
-				<executions>
-					<execution>
-						<id>run-selenium</id>
-						<phase>integration-test</phase>
-						<goals><goal>java</goal></goals>
 					</execution>
 				</executions>
 			</plugin>
